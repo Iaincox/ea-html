@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="845f1f62-4938-4a4e-b9f4-fbc65fcabe66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NavBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/NavBar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/Partners.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -70,15 +66,24 @@
       <workItem from="1582021300866" duration="3725000" />
       <workItem from="1582053383528" duration="69000" />
       <workItem from="1582105969658" duration="367000" />
-      <workItem from="1582109030468" duration="3982000" />
+      <workItem from="1582109030468" duration="5349000" />
     </task>
+    <task id="LOCAL-00001" summary="index still needs some work">
+      <created>1582113437042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582113437042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="index still needs some work" />
+    <option name="LAST_COMMIT_MESSAGE" value="index still needs some work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581928185978">
@@ -93,10 +98,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="408" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582014142878" />
-    <state x="301" y="66" key="CommitChangelistDialog2" timestamp="1582113418712">
+    <state x="301" y="66" key="CommitChangelistDialog2" timestamp="1582113436848">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="301" y="66" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582113418712" />
+    <state x="301" y="66" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582113436848" />
     <state x="301" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582053427157" />
   </component>
 </project>
