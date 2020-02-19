@@ -8,7 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
+
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
@@ -29,41 +34,104 @@
 
         <div class="container">
             <div w3-include-html="NavBar.html"></div>
+            <div class="parallax">
+                <div class="row">
+                    <div class="col-12">
+                        <div style="margin-top: 50px">
+                            <h2 align="center">Providing Safer Cloud experience,</h2>
+                            <h2 align="center">On your terms</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+
+                        <!-- <p className="Jtext"><FontAwesomeIcon icon={faCheckCircle}/>
+                             Identity and Access Management.</p>
+                         -->
+
+                        <ul>
+                            <li><i class="fa-li fa fa-check-circle"></i> Identity and Access Management</li>
+                            <li><i class="fa-li fa fa-check-circle"></i> Mulit-Factor and Strong Customer Authentication
+                            </li>
+                            <li><i class="fa-li fa fa-check-circle"></i> Identity Analytics</li>
+                            <li><i class="fa-li fa fa-check-circle"></i> Cloud and hybrid cloud migration</li>
+                            <li><i class="fa-li fa fa-check-circle"></i> Sincle and multi-cloud solutions</li>
+                            <li><i class="fa-li fa fa-check-circle"></i> Cloud Archtecture</li>
+                            <li><i class="fa-li fa fa-check-circle"></i> DevOps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-4">
-                    Find out more
-                    Book a free consultation to help you smooth your journey to the Cloud .
+                    <div>
+                        <h1>Find out more</h1>
 
-                    +44 (0)2032908547
+                        <p>Book a free consultation to help you smooth your journey to the Cloud.</p>
 
-                    info@ea-optimised.co.uk
+                        <div style="margin: 30px">
+                            <button type="button"
+                                    class="btn btn-primary"
+                                    style="background-color: teal"
+                                    id="BookCall" block href="/contacts" >
+                                Book a call now!
+                            </button>
+                        </div>
+
+                        <p>
+                            <i class="fa fa-volume-control-phone" style="font-size:24px; margin-right: 20px"></i>
+                            <a href="tel:+442032908547">+44 (0)2032908547</a>
+                        </p>
+
+
+                        <p>
+                            <i class="fa fa-envelope-open" style="font-size:24px; margin-right: 20px"></i>
+                            <a href="mailto:info@ea-optimised.co.uk">info@ea-optimised.co.uk</a>
+                        </p>
+
+                    </div>
                 </div>
                 <div class="col-8 ">
                     <h1>Ensure that your customer data is safe?</h1>
-                    We are not alone in saying that good Identity and Access Management is the key to a great Cloud
-                    experience.
+                    <p>
+                        We are not alone in saying that good Identity and Access Management is the key to a great Cloud
+                        experience.
+                    </p>
 
-                    Additionally, Cloud providers have reported that customers worry about being locked into a
-                    particular solution, so working with the major public Clouds we are able to serve Cloud solutions
-                    running across AWS, Azure and Google.
+                    <p>
+                        Additionally, Cloud providers have reported that customers worry about being locked into a
+                        particular solution, so working with the major public Clouds we are able to serve Cloud
+                        solutions running across AWS, Azure and Google.
+                    </p>
 
-                    Whether you want to embrace fully a particular Cloud technology, adopt a hybrid solution or work
-                    across Clouds, EA-Optimised can help you deliver the experience you are seeking.
+                    <p>
+                        Whether you want to embrace fully a particular Cloud technology, adopt a hybrid solution or work
+                        across Clouds, EA-Optimised can help you deliver the experience you are seeking.
+                    </p>
 
-                    EA-Optimised specialises in delivering Identity and Access Management as well as Cloud migration. We
-                    are partnered with some of the very best providers, Ping Identity and ForgeRock, and supporting
-                    Strong Customer Authentication we work with Callsign. Taken together these are among the most
-                    advanced Access technologies available.
+                    <p>
+                        EA-Optimised specialises in delivering Identity and Access Management as well as Cloud
+                        migration. We are partnered with some of the very best providers, Ping Identity and ForgeRock,
+                        and supporting
+                        Strong Customer Authentication we work with Callsign. Taken together these are among the most
+                        advanced Access technologies available.
+                    </p>
 
-                    So for the very best help in Identity and Access Management (IAM) and Cloud architecture, design and
-                    implementation contact EA-Optimised to find out exactly how effectively we can help you deliver
-                    effectively, saving you both money and time.
+                    <p>So for the very best help in Identity and Access Management (IAM) and Cloud architecture, design
+                        and implementation contact EA-Optimised to find out exactly how effectively we can help you
+                        deliver
+                        effectively, saving you both money and time.
+                    </p>
                 </div>
 
             </div>
+            <div w3-include-html="Footer.html"></div>
         </div>
+
+
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
         <script src="js/vendor/modernizr-3.8.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
                 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

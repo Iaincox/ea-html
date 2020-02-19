@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="845f1f62-4938-4a4e-b9f4-fbc65fcabe66" name="Default Changelist" comment="" />
+    <list default="true" id="845f1f62-4938-4a4e-b9f4-fbc65fcabe66" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/NavBar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/Partners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XvXwDYeJWdT68dKngeCSfDRaRk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,6 +45,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -49,16 +65,38 @@
       <workItem from="1581927780413" duration="3424000" />
       <workItem from="1581931354785" duration="245000" />
       <workItem from="1581948611783" duration="3613000" />
+      <workItem from="1582013878018" duration="278000" />
+      <workItem from="1582014170170" duration="1832000" />
+      <workItem from="1582021300866" duration="3725000" />
+      <workItem from="1582053383528" duration="69000" />
+      <workItem from="1582105969658" duration="367000" />
+      <workItem from="1582109030468" duration="3982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="433" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581928185978">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="433" y="271" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581928185978" />
+    <state x="335" y="146" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1582111490890">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="335" y="146" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582111490890" />
+    <state x="408" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582014142878">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="408" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582014142878" />
+    <state x="301" y="66" key="CommitChangelistDialog2" timestamp="1582113418712">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="301" y="66" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582113418712" />
+    <state x="301" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582053427157" />
   </component>
 </project>
