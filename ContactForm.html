@@ -1,0 +1,47 @@
+<div>
+    <Form onSubmit={this.handleSubmit}>
+        <Form.Group controlId="contactForm.Name">
+            <FormControl type="text"
+                         name="fullname"
+                         placeholder="Name"
+                         id="fullname"
+                         value={this.state.fullname}
+                         onChange={this.handleInputChange}/>
+        </Form.Group>
+        <Form.Group controlId="contactForm.ControlInput1">
+            <FormControl type="email"
+                         name="email"
+                         placeholder="email address"
+                         value={this.state.email}
+                         onChange={this.handleInputChange}/>
+        </Form.Group>
+        <Form.Group controlId="contactForm.ControlSubject">
+
+            <FormControl type="text"
+                         name="subject"
+                         placeholder="subject"
+                         value={this.state.subject}
+                         onChange={this.handleInputChange}/>
+        </Form.Group>
+
+        <Form.Group controlId="contactForm.ControlTextarea1">
+
+            <FormControl as="textarea"
+                         name="message"
+                         rows="3"
+                         placeholder="Message"
+                         value={this.state.message}
+                         onChange={this.handleInputChange}/>
+        </Form.Group>
+        <Button type="submit" variant="primary" block>
+            Request Contact
+        </Button>
+
+        <Alert show={this.state.show} variant="danger">
+            <Alert.Heading>Feedback</Alert.Heading>
+            <p>
+                Message Not sent {this.state.responseStatus}
+            </p>
+        </Alert>
+    </Form>
+</div>

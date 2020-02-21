@@ -8,7 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
@@ -16,6 +18,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <meta name="theme-color" content="#fafafa">
     </head>
@@ -27,60 +33,134 @@
         <![endif]-->
 
 
-        <div class="container">
+        <div class="container-fluid">
             <div w3-include-html="NavBar.html"></div>
+            <div class="parallax">
+                <div class="row">
+                    <div class="col-12 partner-title">
+                        <h1>We are proud to partner with leading technologies</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 partner-intro">
+
+                    <p>
+                        In order to deliver the perfect solution in <b>Identity and Access Management</b>,
+                        EA-Optimised is partnered with some of the very best software and soltion providers
+                        world wide.
+                    </p>
+                    <p>
+                        We are perfectly placed to implement and configure their solutions to give you peace of
+                        mind!
+                    </p>
+                    <hr/>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-4">
-                    Find out more
-                    Book a free consultation to help you smooth your journey to the Cloud .
+                    <div class="card CardFormat">
+                        <div class="card-body">
+                            <img
+                                src="./Images/Ping-Logo.svg"
+                                alt=""
+                                width="100px"
+                            />
 
-                    +44 (0)2032908547
+                            <div class="card-text">
+                                Pings' mission is to simplify how enterprises provide secure and seamless
+                                digital experiences.
+                            </div>
 
-                    info@ea-optimised.co.uk
+                            <a href="http://www.pingidentity.com" target={"_blank"}>The Identity Security
+                                Company</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-8 ">
-                    <h1>About</h1>
-                    <p>
-                        EA-Optimised was founded in 2011 by Iain Cox, to provide in-depth Enterprise and Solutions
-                        Architecture. During the intervening years, we have worked on many Digital Transformations,
-                        Mobile
-                        and Green-Field projects.
-                    </p>
-                    <p>
-                        Engaging across a wide section of industry, we primarily focus on Banking, FinTech and the
-                        Public
-                        Sector. Throughout this journey, two things have become clear; firstly, increasingly, Businesses
-                        are
-                        moving to “The Cloud”. Secondly, Security is rightly the single issue that today concerns
-                        business
-                        owners and directors above all other.
-                    </p>
+                <div class="col-4">
 
-                    <p>
-                        Consequently, since 2015, EA-Optimised has specialised in Cloud Migration and Identity and
-                        Access
-                        Management (IAM), working with organisations such as HSBC, One Family Mutual, The Home Office
-                        and
-                        Welsh Government.
-                    </p>
-
-                    <p>
-                        Our engagements can be anything from an IAM “Go Live Readiness Assessment”, to a complete
-                        bespoke
-                        enterprise/ cloud and security architecture lasting 18 months or more.
-                    </p>
-
-                    <p>
-                        Today, EA-Optimised is partnered with Ping Identity, ForgeRock and Callsign to delver the very
-                        best
-                        IAM and Cloud experience.
-                    </p>
+                    <div class="card CardFormat">
+                        <img
+                            src="./Images/ForgeRockLogo.png"
+                            alt=""
+                            width="150"
+                        />
+                        <div class="card-body">
+                            <div class="card-text">
+                                Seamlessly manage identity relationships across all channels, on-premises, in
+                                the cloud, and on mobile.
+                            </div>
+                            <a href="http://www.forgerock.com" target={"_blank"}>The ForgeRock Identity
+                                Platform</a>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-4">
 
+                    <div class="card CardFormat">
+
+                        <div class="card-body">
+                            <img
+                                src="./Images/idax-vector-logo-01-1.png"
+                                alt=""
+                                width="100px"
+                            />
+
+                            <div class="card-text">
+                                <p>
+                                    <span className="fa-p"><FontAwesomeIcon icon={faCheck}/></span>
+                                    Finds staff with access rights they shouldn’t have.
+                                </p>
+                                <p>
+                                    <span className="fa-p"><FontAwesomeIcon icon={faCheck}/></span>
+                                    Works within hours and with no prior knowledge
+                                </p>
+                                <p>
+                                    <span className="fa-p"><FontAwesomeIcon icon={faCheck}/></span>
+                                    Idax provides information to enable effective staff governance.
+                                </p>
+
+                            </div>
+                            <a href="http://idaxsoftware.com/" target={"_blank"}>Idax: The Future of
+                                Identity Analytics</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="card CardFormat">
+
+                        <div class="card-body">
+                            <img
+                                src="./Images/callsign.png"
+                                alt=""
+                                width="150px"
+                            />
+
+                            <div class="card-text">
+                                Callsign helps your users get on with their digital lives in the most seamless
+                                way possible –
+                                checked, verified, safe. Because they enhance, rather than block, user
+                                experience
+                            </div>
+                            <a href="http://www.callsign.com" target={"_blank"}>Real Time, Intelligence driven
+                                Authentication</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4"></div>
+            </div>
+            <div w3-include-html="Footer.html"></div>
         </div>
+
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+
         <script src="js/vendor/modernizr-3.8.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
                 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
