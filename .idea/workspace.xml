@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="845f1f62-4938-4a4e-b9f4-fbc65fcabe66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContactForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/ContactForm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/IAM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582114754933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="index still needs some work">
+      <created>1582403726393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582403726393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,10 +124,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="408" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582014142878" />
-    <state x="301" y="66" key="CommitChangelistDialog2" timestamp="1582114754804">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="268" y="23" key="CommitChangelistDialog2" timestamp="1582403725755">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="301" y="66" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582114754804" />
+    <state x="268" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582403725755" />
     <state x="301" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582053427157" />
     <state x="503" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582187288693">
       <screen x="0" y="23" width="1440" height="877" />

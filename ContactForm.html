@@ -1,39 +1,39 @@
-<div>
-    <Form onSubmit={this.handleSubmit}>
-        <Form.Group controlId="contactForm.Name">
-            <FormControl type="text"
-                         name="fullname"
-                         placeholder="Name"
-                         id="fullname"
-                         value={this.state.fullname}
-                         onChange={this.handleInputChange}/>
-        </Form.Group>
-        <Form.Group controlId="contactForm.ControlInput1">
-            <FormControl type="email"
-                         name="email"
-                         placeholder="email address"
-                         value={this.state.email}
-                         onChange={this.handleInputChange}/>
-        </Form.Group>
-        <Form.Group controlId="contactForm.ControlSubject">
+<div class="iam-body">
+    <form> <!-- onSubmit={this.handleSubmit}-->
+        <div class="form-group" controlId="contactForm.Name">
+            <input type="text"
+                   name="fullname"
+                   placeholder="Name"
+                   id="fullname">
+            <!--value={this.state.fullname}
+            onChange={this.handleInputChange}>-->
+        </div>
+        <div class="form-group" controlId="contactForm.ControlInput1">
+            <input type="email"
+                   name="email"
+                   placeholder="email address">
+            <!--value={this.state.email}
+            onChange={this.handleInputChange}/>-->
+        </div>
+        <div class="form-group" controlId="contactForm.ControlSubject">
 
-            <FormControl type="text"
-                         name="subject"
-                         placeholder="subject"
-                         value={this.state.subject}
-                         onChange={this.handleInputChange}/>
-        </Form.Group>
+            <input type="text"
+                   name="subject"
+                   placeholder="subject">
+            <!--value={this.state.subject}
+            onChange={this.handleInputChange}/>-->
+        </div>
 
-        <Form.Group controlId="contactForm.ControlTextarea1">
+        <div class="form-group" controlId="contactForm.ControlTextarea1">
 
-            <FormControl as="textarea"
-                         name="message"
-                         rows="3"
-                         placeholder="Message"
-                         value={this.state.message}
-                         onChange={this.handleInputChange}/>
-        </Form.Group>
-        <Button type="submit" variant="primary" block>
+                            <textarea class="form-control"
+                                      name="message"
+                                      rows="3"
+                                      placeholder="Message"></textarea>
+            <!--value={this.state.message}
+            onChange={this.handleInputChange}/>-->
+        </div>
+        <Button type="submit" class="btn btn-primary btn-block" style="background-color: teal">
             Request Contact
         </Button>
 
@@ -43,5 +43,5 @@
                 Message Not sent {this.state.responseStatus}
             </p>
         </Alert>
-    </Form>
-</div>
+    </form>
+</div><!---->

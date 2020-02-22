@@ -101,54 +101,9 @@
 
         <!--        Contact Form here -->
         <div class="col-4">
-            <!-- div w3-include-html="ContactForm.html"></div-->
-            <div class="iam-body">
-                <form> <!-- onSubmit={this.handleSubmit}-->
-                    <div class="form-group" controlId="contactForm.Name">
-                        <input type="text"
-                               name="fullname"
-                               placeholder="Name"
-                               id="fullname">
-                        <!--value={this.state.fullname}
-                        onChange={this.handleInputChange}>-->
-                    </div>
-                    <div class="form-group" controlId="contactForm.ControlInput1">
-                        <input type="email"
-                               name="email"
-                               placeholder="email address">
-                        <!--value={this.state.email}
-                        onChange={this.handleInputChange}/>-->
-                    </div>
-                    <div class="form-group" controlId="contactForm.ControlSubject">
+            <div w3-include-html="ContactForm.html"></div>
 
-                        <input type="text"
-                               name="subject"
-                               placeholder="subject">
-                        <!--value={this.state.subject}
-                        onChange={this.handleInputChange}/>-->
-                    </div>
 
-                    <div class="form-group" controlId="contactForm.ControlTextarea1">
-
-                            <textarea class="form-control"
-                                      name="message"
-                                      rows="3"
-                                      placeholder="Message"></textarea>
-                        <!--value={this.state.message}
-                        onChange={this.handleInputChange}/>-->
-                    </div>
-                    <Button type="submit" class="btn btn-primary btn-block" style="background-color: teal">
-                        Request Contact
-                    </Button>
-
-                    <Alert show={this.state.show} variant="danger">
-                        <Alert.Heading>Feedback</Alert.Heading>
-                        <p>
-                            Message Not sent {this.state.responseStatus}
-                        </p>
-                    </Alert>
-                </form>
-            </div>
         </div>
     </div>
     <div w3-include-html="Footer.html"></div>
