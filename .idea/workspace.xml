@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="845f1f62-4938-4a4e-b9f4-fbc65fcabe66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CloudArchitecture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CloudMigration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContactForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevOps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IAM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Integration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSO.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mfa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ea-html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ea-html.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NavBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/NavBar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/Partners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IAM.html" beforeDir="false" afterPath="$PROJECT_DIR$/IAM.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
