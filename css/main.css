@@ -18,12 +18,13 @@ html {
     height: 100%;
 }
 
-body{
-    min-height: 650px;
-/*    height: 100%;*/
+body {
+    min-height: 850px;
+    /*    height: 100%;*/
     margin-top: 70px;
     margin-bottom: 100px;
 }
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -274,7 +275,7 @@ textarea {
         widows: 3;
     }
 
-    h1,h2,
+    h1, h2,
     h3 {
         color: teal;
         page-break-after: avoid;
@@ -295,22 +296,76 @@ textarea {
     background-size: cover;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     color: teal;
 }
 
 
-.ImageFrame{
-    margin-top: 50px;
-    align-content: center;
+.ImageFrame {
+    margin-top: 5rem;
 }
 
-.ImageText{
+.ImageText {
     /*font-size: small;*/
     margin-top: 30px;
     text-align: center;
 }
 
-.AboutPage{
+.AboutPage {
     margin-top: 160px;
+}
+
+
+/*Footer {
+    color: white;
+}*/
+
+.FooterText {
+    color: ghostwhite;
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ***************************** Footer stuff *********************************************************************** */
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.FooterText a {
+    color: white;
+    font-size: 10px;
+}
+
+a:hover {
+    color: blue;
+}
+
+/********************Partners ***********************/
+.CardFormat {
+    width: 20rem;
+    height: 26rem;
+    margin-bottom: 2rem;
+}
+
+.partner-intro {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.partner-title {
+    text-align: center;
+    margin-top: 150px;
 }

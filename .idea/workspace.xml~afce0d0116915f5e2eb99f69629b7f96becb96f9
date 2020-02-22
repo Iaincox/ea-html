@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="845f1f62-4938-4a4e-b9f4-fbc65fcabe66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CloudArchitecture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CloudMigration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContactForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevOps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IAM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Integration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mfa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ea-html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ea-html.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NavBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/NavBar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Partners.html" beforeDir="false" afterPath="$PROJECT_DIR$/Partners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1XvXwDYeJWdT68dKngeCSfDRaRk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="845f1f62-4938-4a4e-b9f4-fbc65fcabe66" name="Default Changelist" comment="" />
+      <created>1581927777396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581927777396</updated>
+      <workItem from="1581927780413" duration="3424000" />
+      <workItem from="1581931354785" duration="245000" />
+      <workItem from="1581948611783" duration="3613000" />
+      <workItem from="1582013878018" duration="278000" />
+      <workItem from="1582014170170" duration="1832000" />
+      <workItem from="1582021300866" duration="3725000" />
+      <workItem from="1582053383528" duration="69000" />
+      <workItem from="1582105969658" duration="367000" />
+      <workItem from="1582109030468" duration="5577000" />
+      <workItem from="1582187154658" duration="1689000" />
+      <workItem from="1582189246792" duration="746000" />
+      <workItem from="1582202816001" duration="2640000" />
+      <workItem from="1582225690961" duration="1016000" />
+      <workItem from="1582226750489" duration="1181000" />
+      <workItem from="1582279454195" duration="3558000" />
+      <workItem from="1582302675439" duration="6680000" />
+    </task>
+    <task id="LOCAL-00001" summary="index still needs some work">
+      <created>1582113437042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582113437042</updated>
+    </task>
+    <task id="LOCAL-00002" summary="index still needs some work">
+      <created>1582114754933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582114754933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index still needs some work" />
+    <option name="LAST_COMMIT_MESSAGE" value="index still needs some work" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1496" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582279550398">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1496" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/-3840.67.1920.1057/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1582279550398" />
+    <state x="433" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581928185978">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="433" y="271" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1581928185978" />
+    <state x="335" y="146" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1582111490890">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="335" y="146" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582111490890" />
+    <state x="408" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582014142878">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="408" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582014142878" />
+    <state x="301" y="66" key="CommitChangelistDialog2" timestamp="1582114754804">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="301" y="66" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582114754804" />
+    <state x="301" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582053427157" />
+    <state x="503" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582187288693">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="503" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1582187288693" />
+  </component>
+</project>
