@@ -16,3 +16,7 @@
 
 # Generated files
 .idea/**/contentModel.xml
+
+.idea/ea-html.iml
+.idea/modules.xml
+.idea/misc.xml
