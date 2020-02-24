@@ -8,7 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
@@ -30,12 +32,62 @@
         <![endif]-->
 
 
-        <div class="container">
+        <div class="container-fluid">
+            <!-- Put in the nav bar -->
             <div w3-include-html="NavBar.html"></div>
 
-            <h1>DevOps</h1>
+            <div class="parallax">
+                <div class="row">
+                    <div class="col-12 partner-title">
+                        <h1>Integration</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main body of the page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+
+                <!--        Body of the page -->
+                <div class="col-6">
+                    <div>
+                        <h2>Integration</h2>
+
+                        <p>
+                            Today, more than ever before, Integration is another key enabler behind the use of Cloud.
+                        </p>
+                        <p>
+                            It is likely, if not inevitable, that remote systems, in different environments, will need
+                            to be
+                            connected. These systems may be in the form of Software as a Service, "On Premise" or even
+                            on
+                            separate
+                            Cloud infrastructures.
+                        </p>
+                        <p>
+                            Knowing how to integrate these systems and the most reliable and cost efficient manner to do
+                            this
+                            is critical in building a performant and scaleable Cloud environment.
+                        </p>
+
+                        <p>
+                            Talk to experts who understand how Integration can be delivered quickly and cost
+                            effectively.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!--        Contact Form here -->
+                <div class="col-4">
+                    <div w3-include-html="ContactForm.html"></div>
+                </div>
+            </div>
             <div w3-include-html="Footer.html"></div>
         </div>
+
 
         <!-- Add your site or application content here -->
 

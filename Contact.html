@@ -37,15 +37,28 @@
             <div w3-include-html="NavBar.html"></div>
             <div class="row">
                 <div class="col-4">
+                    <div class="body-top-margin">
+                        <img src="./Images/about_img.jpg" alt="Contact Us" class="img-fluid">
 
-                    <img src="./Images/about_img.jpg" alt="Contact Us" class="img-fluid">
-                    We are a Herefordshire based business, working all over the UK.
+                        <div style="margin-top: 3rem;">
+                            <p>
+                                We are a Herefordshire based business, working all over the UK.
+                            </p>
 
-                    We can be contacted at
+                            <p>
+                                We can be contacted at
+                            </p>
 
-                    +44 (0)2032908547
-
-                    info@ea-optimised.co.uk
+                            <p>
+                                <i class="fa fa-volume-control-phone" style="font-size:24px; margin-right: 20px"></i>
+                                <a href="tel:+442032908547">+44 (0)2032908547</a>
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope-open" style="font-size:24px; margin-right: 20px"></i>
+                                <a href="mailto:info@ea-optimised.co.uk">info@ea-optimised.co.uk</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-8 ">
                     <h1>Contact EA-Optimmised</h1>
@@ -53,48 +66,11 @@
                         To discuss Identity and Access Management or any aspect of Cloud computing, please feel free to
                         contact us for a free initial consultation.
                     </p>
-                    <form>
+                    <hr/>
+                    <!-- Contact form -->
+                    <div w3-include-html="ContactForm.html"></div>
 
-                        <div class="form-group row">
-                            <label for="colFormLabelName" class="col-2 col-form-label col-form-label-lg">Name
-                            </label>
-                            <div class="col-10">
-                                <input type="email" class="form-control" id="colFormLabelName"
-                                       placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="colFormLabelEmail" class="col-2 col-form-label col-form-label-lg">Email
-                            </label>
-                            <div class="col-10">
-                                <input type="email" class="form-control" id="colFormLabelEmail"
-                                       placeholder="email">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="colFormLabelSubject" class="col-2 col-form-label col-form-label-lg">Subject
-                            </label>
-                            <div class="col-10">
-                                <input type="email" class="form-control" id="colFormLabelSubject"
-                                       placeholder="Subject">
-                            </div>
-                        </div>
-                        <Form.Group controlId="contactForm.ControlTextarea1">
-
-                            <FormControl as="textarea"
-                                         name="message"
-                                         rows="3"
-                                         placeholder="Message"
-                                         value={this.state.message}
-                                         onChange={this.handleInputChange}/>
-                        </Form.Group>
-                        <Button type="submit" variant="primary" block>
-                            Request Contact
-                        </Button>
-
-                    </form>
                 </div>
-
             </div>
         </div>
         <div w3-include-html="Footer.html"></div>

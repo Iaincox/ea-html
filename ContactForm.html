@@ -1,11 +1,12 @@
 <div class="body-top-margin">
     <form class="needs-validation" novalidate> <!-- onSubmit={this.handleSubmit}-->
         <div class="form-group" controlId="contactForm.Name">
+            <label for="NameInput">Name</label>
             <input class="form-control"
                    type="text"
                    name="fullname"
                    placeholder="Name"
-                   id="fullname"
+                   id="NameInput"
                     required>
             <div class="invalid-feedback">
                 Please provide a contact name
@@ -14,9 +15,12 @@
             onChange={this.handleInputChange}>-->
         </div>
         <div class="form-group" controlId="contactForm.ControlInput1">
+            <label for="EmailInput">Email</label>
+
             <input class="form-control"
                    type="email"
                    name="email"
+                   id="EmailInput"
                    placeholder="email address"
             required>
             <div class="invalid-feedback">
@@ -26,11 +30,12 @@
             onChange={this.handleInputChange}/>-->
         </div>
         <div class="form-group" controlId="contactForm.ControlSubject">
-
+            <label for="SubjectInput">Subject</label>
             <input class="form-control"
                    type="text"
                    name="subject"
                    placeholder="subject"
+                   id="SubjectInput"
             required>
             <div class="invalid-feedback">
                 Please provide a subject for your contact
@@ -40,10 +45,11 @@
         </div>
 
         <div class="form-group" controlId="contactForm.ControlTextarea1">
-
+            <label for="MessageInput">Message</label>
                             <textarea class="form-control"
                                       name="message"
                                       rows="3"
+                                      id="MessageInput"
                                       placeholder="Message"></textarea>
             <!--value={this.state.message}
             onChange={this.handleInputChange}/>-->

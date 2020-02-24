@@ -8,7 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+              crossorigin="anonymous">
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
@@ -30,10 +32,57 @@
         <![endif]-->
 
 
-        <div class="container">
+        <div class="container-fluid">
+            <!-- Put in the nav bar -->
             <div w3-include-html="NavBar.html"></div>
 
-            <h1>DevOps</h1>
+            <div class="parallax">
+                <div class="row">
+                    <div class="col-12 partner-title">
+                        <h1>DevOps</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main body of the page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+
+                <!--        Body of the page -->
+                <div class="col-6">
+                    <h2>DevOps</h2>
+                    <p>
+                        DevOps is a practice that works hand in hand with the Agile development methodologies, but more
+                        important, it is a technique that is fundamental in the management of Cloud environments.
+                    </p>
+                    <p>
+                        Good DevOps practices will not only enhance the velocity to deliver your projects, knowing their
+                        way
+                        around Cloud, but also, they can bring significant savings, and scale through containerisation
+                        with
+                        "Docker".
+                    </p>
+                    <p>
+                        Our DevOps engineers can quickly help you build a CI/CD pipeline and move it into production,
+                        ensuring
+                        you waste no time in connecting with your partners and customers.
+                    </p>
+                    <p>
+                        Once you are live, we can ensure that your IT scales as your business grows.
+                    </p>
+                    <p>
+                        To find out how to best utilise DevOps and Containerisation, book a free
+                        consultation now.
+                    </p>
+                </div>
+
+                <!--        Contact Form here -->
+                <div class="col-4">
+                    <div w3-include-html="ContactForm.html"></div>
+                </div>
+            </div>
             <div w3-include-html="Footer.html"></div>
         </div>
 
